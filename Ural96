@@ -1,0 +1,116 @@
+index.html <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HA REPITE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Главная секция -->
+    <section class="hero">
+        <div class="content">
+            <h1>HA REPITE</h1>
+            <p>Элегантность в каждом детале</p>
+        </div>
+    </section>
+
+    <!-- О себе -->
+    <section class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы создаем уникальные решения, сочетая минимализм и классику.</p>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <footer class="footer">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <p>Email: contact@harepite.com</p>
+            <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+        </div>
+    </footer>
+</body>
+</html>
+styles.css
+/* Общие настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Главная секция */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    text-align: center;
+}
+
+.content {
+    text-transform: uppercase;
+}
+
+.content h1 {
+    font-size: 5em;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+/* О нас */
+.about {
+    background-color: #111;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* Контакты */
+.footer {
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 1.2em;
+    opacity: 0.8;
+    margin: 10px 0;
+}
